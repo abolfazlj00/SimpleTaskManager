@@ -25,31 +25,35 @@ This project is a simple Python-based API for managing tasks. It uses a modular 
 ├── .sample.env # Example environment configuration
 ├── LICENSE
 ├── README.md # Project documentation
-
+```
 
 ## Setup Instructions
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/abolfazlj00/SimpleTaskManager.git
-   cd SimpleTaskManager
-   python -m venv venv
+```bash
+git clone https://github.com/abolfazlj00/SimpleTaskManager.git
+cd SimpleTaskManager
+python -m venv venv
+```
 
 2. **Create a virtual environment**
-    ```bash
-    Linux: source venv/bin/activate  
-    Windows: venv\\Scripts\\activate
+```bash
+Linux: source venv/bin/activate  
+Windows: venv\\Scripts\\activate
+```
 
 3. **Install dependencies**
-    ```bash
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 4. **Configure environment variables**
     * Copy .sample.env to .env and fill in the required values.
 
 5. **Run the application**
-    ```bash
-    uvicorn app.main:app --reload
+```bash
+uvicorn app.main:app --reload
+```
 
 6. **Access the API docs**
     * Navigate to http://localhost:8000/docs
