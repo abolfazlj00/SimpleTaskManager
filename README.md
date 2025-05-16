@@ -32,7 +32,7 @@ This project is a simple Python-based API for managing tasks. It uses a modular 
 ├── README.md # Project documentation
 ```
 
-## ⚙️ Setup Instructions
+## ⚙️ Setup Instructions On Windows
 
 1. **Clone the repository**
 ```bash
@@ -42,13 +42,8 @@ python -m venv venv
 ```
 
 2. **Create a virtual environment**
-#### On **Windows**:
 ```bash
 venv/Scripts/activate
-```
-#### On **Linux/macOS**:
-```bash
-source venv/bin/activate
 ```
 
 3. **Install dependencies**
