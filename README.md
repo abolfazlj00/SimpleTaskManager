@@ -19,8 +19,8 @@ This project is a simple Python-based API for managing tasks. It uses a modular 
 │ ├── main.py # Entry point of the app
 │ ├── models.py # SQLAlchemy models
 │ ├── schemas.py # Pydantic schemas
-│ └── routers/
-│ └── tasks.py # Task-related API routes
+│ └── routers
+│   └── tasks.py # Task-related API routes
 ├── .gitignore
 ├── .sample.env # Example environment configuration
 ├── LICENSE
