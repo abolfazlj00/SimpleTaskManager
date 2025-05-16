@@ -10,7 +10,7 @@ This project is a simple Python-based API for managing tasks. It uses a modular 
 - Modular and extensible codebase
 
 ## Project Structure
-
+```bash
 .
 ├── app/
 │ ├── config.py # Configuration settings
@@ -53,4 +53,3 @@ This project is a simple Python-based API for managing tasks. It uses a modular 
 
 6. **Access the API docs**
     * Navigate to http://localhost:8000/docs
-    
