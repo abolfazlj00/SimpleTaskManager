@@ -31,7 +31,7 @@ This project is a simple Python-based API for managing tasks. It uses a modular 
 ├── README.md # Project documentation
 ```
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
 1. **Clone the repository**
 ```bash
@@ -41,9 +41,13 @@ python -m venv venv
 ```
 
 2. **Create a virtual environment**
+* On Windows
 ```bash
-Linux: source venv/bin/activate  
-Windows: venv\\Scripts\\activate
+venv/Scripts/activate
+```
+* On Linux/macOS
+```bash
+source venv/bin/activate
 ```
 
 3. **Install dependencies**
@@ -56,7 +60,8 @@ pip install -r requirements.txt
 
 5. **Run the application**
 ```bash
-uvicorn app.main:app --reload
+cd app
+uvicorn main:app --reload
 ```
 
 6. **Access the API docs**
