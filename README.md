@@ -2,12 +2,16 @@
 
 This project is a simple Python-based API for managing tasks. It uses a modular architecture with separate files for configuration, database operations, routing, and data models.
 
-## Features
+## 🛠 Tech Stack
+
+* FastAPI
+* SqlAlchemy
+
+## 🚀 Features
 
 - Task CRUD operations (Create, Read, Update, Delete)
 - SQLAlchemy for ORM-based database access
 - Pydantic models for data validation
-- Modular and extensible codebase
 
 ## Project Structure
 ```bash
